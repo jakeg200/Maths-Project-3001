@@ -4,6 +4,9 @@ Experimental code for a final-year (MATH3001) dissertation at the University of 
 
 **Dissertation:** [Link to thesis PDF / repository — *placeholder until published*](https://example.com/your-dissertation-link)
 
+**Suggested GitHub “About” description (copy-paste):**  
+*MATH3001 (Leeds): LLM causal-reasoning benchmark — programmatic mutations of the firefighter paradox; 505 scored single-agent runs + 20 debate transcripts.*
+
 ## Methodology (summary)
 
 The core idea is a **programmatic mutation framework**: the original firefighter story (Level 1) is varied at **Level 2** via surface rewrites into many domains, and at **Level 3** via structural mutations (e.g. sign flip with adverse interaction, explicit mediator, reversed causal edge, and a small numerical *do*-calculus style item). **Five models** are evaluated (GPT-5.4 via OpenAI; GPT-OSS 120B, Llama 3.3 70B, Llama 3.1 8B, and Qwen 3 32B via Groq), yielding **505 single-agent scored responses** (101 problems × 5 models). Each response receives a **two-signal score**: **correctness** (binary match to the designated answer) and a **reasoning / keyword signal** (binary, based on occurrence of problem-specific causal vocabulary). A **multi-agent debate** stress test (naive vs structural analyst, then a judge) is run on a subset of Level-3 problems to see whether answers remain stable under adversarial pressure.
@@ -11,8 +14,8 @@ The core idea is a **programmatic mutation framework**: the original firefighter
 ## Repository contents
 
 - `run_experiments.py` — Problem generation, API calls, automated scoring, aggregate tables, chart export, and optional multi-agent debate pipeline.
-- `all_results.json` — 505 scored single-agent model responses. The repository may ship with an empty array `[]` as a stub; **overwrite this file** with your full dissertation export before publishing or citing specific numbers.
-- `debate_results.json` — 20 debate transcripts with judge verdicts and scores; **overwrite** the stub `[]` with your full export when publishing.
+- `all_results.json` — **505** scored single-agent model responses (101 problems × 5 models), archived from the dissertation run.
+- `debate_results.json` — **20** multi-agent debate transcripts with judge verdicts and scores.
 - `requirements.txt` — Python dependencies for reproduction.
 - `.env.example` — Template for API keys (copy to `.env` locally; never commit real keys).
 - `.gitignore` — Excludes secrets, caches, partial result dumps, and sensitive filename patterns.
