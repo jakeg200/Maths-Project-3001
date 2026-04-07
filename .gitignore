@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# OS
+.DS_Store
+
+# Incremental experiment saves
+*.partial.json
+
+# Filenames that may contain credentials (broad; rename local files if needed)
+*key*
+*secret*
+
+# Generated figures (optional: remove this line if you want figures in git)
+# figures/
