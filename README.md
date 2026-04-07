@@ -66,7 +66,7 @@ Even at **temperature 0**, provider APIs do not guarantee **bitwise-identical** 
   title   = {The Limits of Large Language Model Reasoning: A Causal Hierarchy Approach},
   school  = {University of Leeds},
   year    = {2026},
-  note    = {MATH3001 dissertation --- citation details to be updated after submission}
+  note    = {MATH3001 dissertation}
 }
 ```
 
