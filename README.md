@@ -1,11 +1,8 @@
 # The Limits of Large Language Model Reasoning: A Causal Hierarchy Approach
 
-Experimental code for a final-year (MATH3001) dissertation at the University of Leeds: systematically mutating a canonical confounding scenario (the “firefighter paradox”) and evaluating whether several large language models answer in line with causal structure, under single-agent and multi-agent debate conditions.
+Code for MATH3001 prroject at the University of Leeds: systematically mutating a canonical confounding scenario (the “firefighter paradox”) and evaluating whether several large language models answer in line with causal structure, under single-agent and multi-agent debate conditions.
 
-
-
-
-MATH3001 (Leeds): LLM causal-reasoning benchmark — programmatic mutations of the firefighter paradox; 505 scored single-agent runs + 20 debate transcripts.*
+LLM causal-reasoning benchmark — programmatic mutations of the firefighter paradox; 505 scored single-agent runs + 20 debate transcripts.*
 
 ## Methodology (summary)
 
