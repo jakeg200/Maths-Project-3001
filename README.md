@@ -55,17 +55,7 @@ The core idea is a **programmatic mutation framework**: the original firefighter
 
 Even at **temperature 0**, provider APIs do not guarantee **bitwise-identical** completions across time. Re-running the pipeline may yield **small shifts** in exact scores or extracted answers, but the **qualitative patterns** reported in the dissertation should be stable. For archival comparison, prefer the committed `all_results.json` / `debate_results.json` from the dissertation run.
 
-## Citation
 
-```bibtex
-@mastersthesis{goldschmidt2026limits,
-  author  = {Goldschmidt, Jake},
-  title   = {The Limits of Large Language Model Reasoning: A Causal Hierarchy Approach},
-  school  = {University of Leeds},
-  year    = {2026},
-  note    = {MATH3001 dissertation}
-}
-```
 
 ## Author
 
